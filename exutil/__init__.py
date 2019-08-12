@@ -59,5 +59,3 @@ def shred_sheets(input_file, _format):
             except Exception as e:
                 print(e)
                 continue
-
-        print("\tDone!")

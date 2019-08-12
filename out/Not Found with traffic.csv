@@ -1,0 +1,99 @@
+,URL,HTTP Status Code,HTTP Status,Crawl Source,First Parent URL,Title,Total Clicks,Total Impressions,Average CTR,Average Position,Desktop Clicks (URL Avg),Desktop Impressions (URL Avg),Desktop CTR (URL Avg),Desktop Position (URL Avg),Mobile Clicks (URL Avg),Mobile Impressions (URL Avg),Mobile CTR (URL Avg),Mobile Position (URL Avg),Tablet Clicks (URL Avg),Tablet Impressions (URL Avg),Tablet CTR (URL Avg),Tablet Position (URL Avg),Found in Google Analytics,Users,Sessions,Pageviews,Pageviews Per Session,Unique Pageviews,Bounce Rate,Avg Time On Page,Entrance Rate,Goal Completions,Goal Conversion Rate
+0,https://www.mdmountainside.com/10th-annual-roger-rizer-memorial-car-show,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,4,4,4,1.0,4,100.0,0.0,100.0,0,0
+1,https://www.mdmountainside.com/1st-presbyterian-churchs-annual-ice-cream-social,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,5,6,1.2,5,80.0,134.0,83.33,0,0
+2,https://www.mdmountainside.com/2019-annual-members-exhibition,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,6,2.0,5,33.33,35.67,50.0,0,0
+3,https://www.mdmountainside.com/2019-heritage-days-festival,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,721,868,1190,1.37,1070,84.33,110.53,72.94,0,0
+4,https://www.mdmountainside.com/2019-polish-mountain-hill-climb,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,325,387,528,1.36,455,82.69,175.28,73.3,0,0
+5,https://www.mdmountainside.com/32nd-annual-coney-days,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,48,50,144,2.88,99,54.0,68.15,34.72,0,0
+6,https://www.mdmountainside.com/33rd-annual-coney-days-sunday-on-the-crick,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,6,7,12,1.71,9,42.86,476.6,58.33,0,0
+7,https://www.mdmountainside.com/4th-of-july-fire-works,404,Not Found,Crawler,https://www.mdmountainside.com/4th-of-july-fireworks,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,45,56,88,1.57,77,75.0,125.52,63.64,0,0
+8,https://www.mdmountainside.com/4th-of-july-plaque-reading,404,Not Found,Crawler,https://www.mdmountainside.com/4th-of-july-fireworks,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,4,5,7,1.4,7,60.0,534.0,71.43,0,0
+9,https://www.mdmountainside.com/6th-annual-casa-wine-and-craft-beer-festival,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,16,17,18,1.06,18,94.12,166.0,94.44,0,0
+10,https://www.mdmountainside.com/a-streetcar-named-desire,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,5,5,5,1.0,5,100.0,0.0,100.0,0,0
+11,https://www.mdmountainside.com/allegany-county-fair-2019,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,264,285,493,1.73,425,69.82,74.26,57.81,0,0
+12,https://www.mdmountainside.com/amish-outlaws-live,404,Not Found,Crawler,https://www.mdmountainside.com/blog/summer-of-music,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,5,5,6,1.2,6,80.0,420.0,83.33,0,0
+13,https://www.mdmountainside.com/an-intimate-evening-with-bowman-bowman-and-dre,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,9,13,19,1.46,15,76.92,273.83,68.42,0,0
+14,https://www.mdmountainside.com/art-and-yoga-2,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+15,https://www.mdmountainside.com/battle-of-folcks-mill-commemoration-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,6,7,13,1.86,11,57.14,229.17,53.85,0,0
+16,https://www.mdmountainside.com/blurred-lines-deborah-hicks-odgers,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+17,https://www.mdmountainside.com/book-discussion-of-heartland-a-memoir-by-sarah-smarsh-2,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+18,https://www.mdmountainside.com/cadillac-cowboys-and-maddie-lous-bbq-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,3,1.0,3,100.0,0.0,100.0,0,0
+19,https://www.mdmountainside.com/casting-crowns,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,45,50,90,1.8,69,72.0,70.85,55.56,0,0
+20,https://www.mdmountainside.com/category/assemblies_of_god,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,1,100
+21,https://www.mdmountainside.com/category/jewish_temple,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,3,3.0,2,0.0,22.0,33.33,1,100
+22,https://www.mdmountainside.com/coffee-with-a-writer-amy-gottfried,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+23,https://www.mdmountainside.com/countdown-to-delfest-brunch-with-jason-mcdonald,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+24,https://www.mdmountainside.com/cramer-brothers-wtim-haines-good-carma-catering-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,3,3.0,2,0.0,31.5,33.33,0,0
+25,https://www.mdmountainside.com/cumberland-pride-festival,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,13,14,35,2.5,26,78.57,35.52,40.0,0,0
+26,https://www.mdmountainside.com/dans-mountain-pool-dollar-dip,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,2,3,1.5,2,50.0,418.0,66.67,0,0
+27,https://www.mdmountainside.com/deeper-community-night-of-worship,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+28,https://www.mdmountainside.com/delfest-2019,404,Not Found,Crawler,https://www.mdmountainside.com/blog/spring-bucket-list,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,9,9,12,1.33,11,77.78,90.0,75.0,0,0
+29,https://www.mdmountainside.com/derby-day-2019,404,Not Found,Crawler,https://www.mdmountainside.com/4th-of-july-fireworks,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,242,305,376,1.23,332,87.21,177.89,81.12,0,0
+30,https://www.mdmountainside.com/dirty-mae-live-on-the-mccoury-family-stage-2,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,3,3,1.0,3,100.0,0.0,100.0,0,0
+31,https://www.mdmountainside.com/dr-frankenmakers-lab-4,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,4,4.0,2,0.0,180.0,25.0,0,0
+32,https://www.mdmountainside.com/driftwood-live-on-the-mccoury-family-stage,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,10,10,13,1.3,11,80.0,173.33,76.92,0,0
+33,https://www.mdmountainside.com/drive-in-fly-in-3,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,2,1.0,2,100.0,0.0,100.0,0,0
+34,https://www.mdmountainside.com/event/jul-2012-national_roller_hockey_championship,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+35,https://www.mdmountainside.com/event/sep-2012-sean_keane,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+36,https://www.mdmountainside.com/evergreen-herb-expo,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+37,https://www.mdmountainside.com/flower-and-plant-sale-in-downtown-cumberland,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,7,7,7,1.0,7,100.0,0.0,100.0,0,0
+38,https://www.mdmountainside.com/fred-n-josh-plus-chef-pauls-kitchen-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+39,https://www.mdmountainside.com/fred-n-josh-plus-klavuhn-wood-fired-concessions-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+40,https://www.mdmountainside.com/george-washingtons-whiskey-rebellion-fest,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,5,7,16,2.29,14,85.71,42.78,43.75,0,0
+41,https://www.mdmountainside.com/ghost-tour-of-historic-cumberland-2,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,4,1.33,4,66.67,648.0,75.0,0,0
+42,https://www.mdmountainside.com/historic-national-road-yard-sale-in-downtown-cumberland-md,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,11,3.67,7,33.33,54.38,27.27,0,0
+43,https://www.mdmountainside.com/jay-dewire-piano,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+44,https://www.mdmountainside.com/joey-harkum-band-live-on-the-mccoury-family-stage,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,10,14,20,1.43,15,71.43,260.67,70.0,0,0
+45,https://www.mdmountainside.com/kemp-lodge-steak-feed,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,4,1.33,3,66.67,54.0,75.0,0,0
+46,https://www.mdmountainside.com/kix-and-great-white-live,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+47,https://www.mdmountainside.com/lambda-car-club-international-grand-invitational,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,19,21,24,1.14,22,95.24,642.0,87.5,0,0
+48,https://www.mdmountainside.com/lanco-in-concert,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,5,5,7,1.4,6,80.0,21.0,71.43,0,0
+49,https://www.mdmountainside.com/lashbaughs-bar-grill,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,2,1.0,2,100.0,0.0,100.0,0,0
+50,https://www.mdmountainside.com/lefty-grove-memorial-park-dedication,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,19,20,24,1.2,22,90.0,52.0,83.33,0,0
+51,https://www.mdmountainside.com/legally-blonde-the-musical,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,32,33,51,1.55,43,63.64,92.89,64.71,0,0
+52,https://www.mdmountainside.com/lonaconing-fireworks-presented-by-dhs-productions,404,Not Found,Crawler,https://www.mdmountainside.com/4th-of-july-fireworks,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,109,141,162,1.15,150,90.78,98.14,87.04,0,0
+53,https://www.mdmountainside.com/loretta-hummel-and-country-grass-live-on-the-mccoury-family-stage,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,3,1.5,3,50.0,21.0,66.67,0,0
+54,https://www.mdmountainside.com/maplehurst-country-club,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,3,1.0,3,100.0,0.0,100.0,0,0
+55,https://www.mdmountainside.com/mark-gallagher-clarinet,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+56,https://www.mdmountainside.com/midlife-crisis-and-chef-pauls-kitchen-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,5,5.0,3,0.0,37.5,20.0,0,0
+57,https://www.mdmountainside.com/mountain-maryland-native-plant-festival,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,6,6,7,1.17,7,83.33,113.0,85.71,0,0
+58,https://www.mdmountainside.com/musician-black-guy-fawkes-and-sob-bbq-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,4,5,7,1.4,6,80.0,28.0,71.43,0,0
+59,https://www.mdmountainside.com/musician-dan-stevens,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,4,5,1.25,4,75.0,41.0,80.0,0,0
+60,https://www.mdmountainside.com/musician-dan-stevens-klavuhn-family-concessions-at-1812,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,8,8,9,1.13,9,87.5,73.0,88.89,0,0
+61,https://www.mdmountainside.com/musician-gibb-cochrum-and-sob-bbq-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,8,8.0,2,0.0,49.71,12.5,0,0
+62,https://www.mdmountainside.com/musicians-chris-workman-and-craig-miller,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,2,1.0,2,100.0,0.0,100.0,0,0
+63,https://www.mdmountainside.com/night-traveler-and-bbq-beast,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,4,4,9,2.25,6,25.0,15.2,44.44,0,0
+64,https://www.mdmountainside.com/night-traveler-and-good-carma-catering-at-1812-brewery2,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,9,11,18,1.64,14,81.82,28.29,61.11,0,0
+65,https://www.mdmountainside.com/noma-exhibition,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,2,2.0,1,0.0,21.0,50.0,0,0
+66,https://www.mdmountainside.com/oldtown-summerfest,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,51,63,84,1.33,78,82.54,186.43,75.0,0,0
+67,https://www.mdmountainside.com/ole-97-johnny-cashjune-carter-tribute,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,2,1.0,2,100.0,0.0,100.0,0,0
+68,https://www.mdmountainside.com/original-bluegrass-by-the-plate-scrapers-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,3,1.0,3,100.0,0.0,100.0,0,0
+69,https://www.mdmountainside.com/pints-and-pilates-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,3,1.0,3,100.0,0.0,100.0,0,0
+70,https://www.mdmountainside.com/pints-and-pilates-with-trainer-karen-smith-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,2,1.0,2,100.0,0.0,100.0,0,0
+71,https://www.mdmountainside.com/pirates-ahoy-2019,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,15,17,18,1.06,17,94.12,65.0,94.44,0,0
+72,https://www.mdmountainside.com/red-white-and-bluegrass-with-the-jakobs-ferry-stragglers,404,Not Found,Crawler,https://www.mdmountainside.com/blog/summer-of-music,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,7,7,12,1.71,9,85.71,455.6,58.33,0,0
+73,https://www.mdmountainside.com/relay4life,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,3,3.0,3,0.0,67.5,33.33,0,0
+74,https://www.mdmountainside.com/route-36-yard-sale,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,47,55,97,1.76,73,69.09,147.31,56.7,0,0
+75,https://www.mdmountainside.com/spring-wine-pairing-dinner-at-toasted-goat,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,4,2.0,4,50.0,37.0,50.0,0,0
+76,https://www.mdmountainside.com/summer-at-your-library-block-party,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,4,6,1.5,5,75.0,17.0,66.67,0,0
+77,https://www.mdmountainside.com/surrender-dorothy-and-good-carma-cathering-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,13,6.5,10,50.0,81.64,15.38,0,0
+78,https://www.mdmountainside.com/the-color-of-water-western-maryland-watercolor-society-exhibition,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,4,4,5,1.25,4,75.0,16.0,80.0,0,0
+79,https://www.mdmountainside.com/the-glass-menagerie-by-tennessee-williams,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,4,5,1.25,4,75.0,513.0,80.0,0,0
+80,https://www.mdmountainside.com/the-golden-gays-and-winnies-rock-cauldron-gay-pride-extravaganza,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+81,https://www.mdmountainside.com/the-pros-from-dover-at-the-1812-brewerys-food-truck-fest,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,9,10,20,2.0,17,50.0,215.4,50.0,0,0
+82,https://www.mdmountainside.com/the-rocky-horror-show,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,4,1.33,3,66.67,592.0,75.0,0,0
+83,https://www.mdmountainside.com/the-royal-train,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,4,4,5,1.25,5,75.0,66.0,80.0,0,0
+84,https://www.mdmountainside.com/the-worn-out-flannels-plus-sob-bbq-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,2,1.0,2,100.0,0.0,100.0,0,0
+85,https://www.mdmountainside.com/tour-of-burial-site-of-american-revolutionary-war-soldier,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+86,https://www.mdmountainside.com/tracy-lawrence-in-concert,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,15,16,19,1.19,16,81.25,61.33,84.21,0,0
+87,https://www.mdmountainside.com/tri-state-wing-off,404,Not Found,Crawler,https://www.mdmountainside.com/blog/summer-of-music,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,5,5,7,1.4,6,80.0,27.0,71.43,0,0
+88,https://www.mdmountainside.com/tri-state-zoological-park,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,242,250,467,1.87,395,64.0,95.33,53.53,0,0
+89,https://www.mdmountainside.com/ty-johnson-day,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,3,3,3,1.0,3,100.0,0.0,100.0,0,0
+90,https://www.mdmountainside.com/vanilla-ice-and-coolio-live,404,Not Found,Crawler,https://www.mdmountainside.com/blog/summer-of-music,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,111,122,164,1.34,140,81.97,57.29,74.39,0,0
+91,https://www.mdmountainside.com/whiskey-paint-and-sip,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,2,2,2,1.0,2,100.0,0.0,100.0,0,0
+92,https://www.mdmountainside.com/wicked-jezabel-live-on-the-mccoury-family-stage,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+93,https://www.mdmountainside.com/woodwind-studio-recital,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+94,https://www.mdmountainside.com/woof-stock-acass-4th-annual-beer-wine-and-music-festival,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,21,21,31,1.48,26,71.43,113.8,67.74,0,0
+95,https://www.mdmountainside.com/worn-out-flannels-plus-zebs-barbeque-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0
+96,https://www.mdmountainside.com/zumba-and-brews-at-1812-brewery,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,5,5,6,1.2,6,80.0,44.0,83.33,0,0
+97,https://www.mdmountainside.com/zumba-and-brews-at-1812-brewery-2,404,Not Found,Google Analytics,None,Not Found,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,1,1,1,1.0,1,100.0,0.0,100.0,0,0

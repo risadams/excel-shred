@@ -1,0 +1,368 @@
+,Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3
+0,Audit Changes for https://www.mdmountainside.com between 2019-07-02 06:41 and 2019-08-05 07:07,,,
+1,,,,
+2,,,,
+3,Crawl,,,
+4,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Insight
+5,97,102,5.15,URLs Not Found (4XX)
+6,2,4,100,Redirected (3XX)
+7,1439,0,-100,Uncrawled URLs
+8,4630,3358,-27.47,Successful URLs (200)
+9,4729,3464,-26.75,All URLs (excluding uncrawled)
+10,4729,3464,-26.75,All URLs Found
+11,0,0,0,Error (5XX)
+12,0,0,0,Forbidden (403)
+13,0,0,0,Subdomain Urls
+14,0,0,0,URLs Timing Out
+15,Internal URLs,,,
+16,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Insight
+17,97,102,5.15,Internal URLs Not Found (4XX)
+18,1157,1144,-1.12,Successful Internal URLs
+19,1256,1249,-0.56,All Internal URLs
+20,1252,1245,-0.56,Internal HTML URLs
+21,4,4,0,Internal Download URLs
+22,0,0,0,Error (5XX)
+23,0,0,0,Forbidden Internal URLs
+24,0,0,0,Internal AMP Page
+25,0,0,0,Internal URLs Timing Out
+26,Internal URLs,,,
+27,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+28,97,102,5.15,Broken internal URLs
+29,148,129,-12.84,Query string contains paginated parameters
+30,20,19,-5,URL contains upper case characters
+31,0,0,0,Query string contains a question mark
+32,0,0,0,Query string contains more than three parameters
+33,0,0,0,Query string contains repetitive parameters
+34,0,0,0,Query string contains search or filter parameters
+35,0,0,0,Query string contains sort parameters
+36,0,0,0,URL contains a double slash
+37,0,0,0,URL contains non-ASCII characters
+38,0,0,0,URL contains repetitive elements
+39,0,0,0,URL contains whitespace
+40,0,0,0,URL resolves under both HTTP and HTTPS
+41,Resources,,,
+42,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Insight
+43,31,33,6.45,JavaScript resource URLs
+44,10,11,10,CSS resource URLs
+45,3403,2141,-37.08,Image resource URLs
+46,3463,2204,-36.36,All Page Resource URLs
+47,3463,2204,-36.36,Successful Resources
+48,0,0,0,Forbidden Resources
+49,0,0,0,Page Resource URLs disallowed by robots.txt
+50,0,0,0,References a broken resource URL
+51,0,0,0,Resource URL Error (5XX)
+52,0,0,0,Resources Not Found (4XX)
+53,0,0,0,Resources Timing Out
+54,Links,,,
+55,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+56,69,70,1.45,Has incoming followed links that do not use descriptive anchor text
+57,38,52,36.84,Has outgoing links with malformed href data
+58,131,320,144.27,Has only one followed internal linking URL
+59,0,87,8700,Only receives nofollow links or links from canonicalized URLs
+60,7,4,-42.86,Has a link with whitespace in href attribute
+61,36,21,-41.67,Has one or more outgoing followed links with non descriptive anchor text
+62,1056,911,-13.73,Has a link with no href attribute
+63,113,110,-2.65,URL is orphaned and was not found by the crawler
+64,41,41,0,URL receives both follow & nofollow internal links
+65,1,1,0,Has an internal link with no anchor text
+66,0,0,0,Alternate URL has no incoming internal links
+67,0,0,0,Has a link with an empty href attribute
+68,0,0,0,Has an anchored image with no alt text
+69,0,0,0,Has link to a non-HTTP protocol
+70,0,0,0,Has link with a URL in onclick attribute
+71,0,0,0,Has link with a URL referencing a local or UNC file path
+72,0,0,0,Has link with a URL referencing LocalHost or 127.0.0.1
+73,0,0,0,Has no outgoing links
+74,0,0,0,Pagination URL has no incoming internal links
+75,On Page,,,
+76,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+77,807,810,0.37,Meta description is empty
+78,199,188,-5.53,Multiple <h1> tags
+79,1049,1035,-1.33,Meta description length too short
+80,1153,1140,-1.13,URL contains a form with a GET method
+81,1080,1069,-1.02,Title tag length too long
+82,7,7,0,Meta description length too long
+83,0,0,0,<h1> length too long
+84,0,0,0,<h1> length too short
+85,0,0,0,<h1> tag is empty
+86,0,0,0,<h1> tag is missing
+87,0,0,0,<head> contains a <noscript> tag
+88,0,0,0,"<head> contains a <noscript> tag, which includes an image"
+89,0,0,0,<head> contains invalid HTML elements
+90,0,0,0,Base URL malformed or empty
+91,0,0,0,Has images with missing alt text
+92,0,0,0,HTML is missing or empty
+93,0,0,0,Meta description is missing
+94,0,0,0,Multiple base URLs
+95,0,0,0,Multiple meta descriptions
+96,0,0,0,Multiple title tags
+97,0,0,0,"Multiple, mismatched base URLs"
+98,0,0,0,Title and meta description are the same
+99,0,0,0,Title tag is empty
+100,0,0,0,Title tag is missing
+101,0,0,0,Title tag length too short
+102,0,0,0,URL contains more than one Google Analytics code
+103,0,0,0,URL contains more than one Google Tag Manager code
+104,0,0,0,URL contains no Google Analytics code
+105,0,0,0,URL contains no Google Tag Manager code
+106,Content,,,
+107,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+108,116,2,-98.28,URLs with duplicate title and meta descriptions
+109,34,2,-94.12,URLs with duplicate content
+110,141,27,-80.85,URLs with duplicate meta descriptions
+111,163,47,-71.17,URLs with duplicate page titles
+112,1078,993,-7.88,URLs with duplicate h1s
+113,2,2,0,Duplicate URLs (technical duplicates)
+114,Front-end,,,
+115,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+116,271,18,-93.36,Contains Javascript Errors
+117,2,1,-50,Logs messages in the browser's console
+118,0,0,0,Contains a broken tag
+119,0,0,0,Contains a duplicate attribute
+120,0,0,0,Contains an attribute whose value is not enclosed in double quotes
+121,0,0,0,Contains an attribute with an unsafe character
+122,0,0,0,Contains an un-encoded special character
+123,0,0,0,Contains an uppercase attribute
+124,0,0,0,Contains an uppercase tag name
+125,0,0,0,Contains duplicate element id values
+126,0,0,0,CSS contains @import
+127,0,0,0,CSS contains duplicate background images
+128,0,0,0,CSS contains overqualified selectors
+129,0,0,0,CSS contains universal selector
+130,0,0,0,CSS contains unqualified attributes
+131,0,0,0,CSS contains zero unit declarations
+132,0,0,0,CSS content contains duplicate CSS properties
+133,0,0,0,CSS content contains unknown CSS properties
+134,0,0,0,CSS content empty rules
+135,0,0,0,CSS content has errors
+136,0,0,0,Document Compatibility Mode In <head> And Headers Differ
+137,0,0,0,Document Compatibility Mode Meta Position Invalid
+138,0,0,0,Document Compatibility Mode Not Set
+139,0,0,0,Does not contain any HTML when JavaScript is turned off
+140,0,0,0,Missing <noscript> tag in the <body>
+141,Mobile Friendly,,,
+142,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+143,174,198,13.79,Total page size too big for 3G connections
+144,0,0,0,Content does not size correctly to viewport
+145,0,0,0,Font size is too small for mobile devices
+146,0,0,0,Has one or more image-map <map> tags
+147,0,0,0,Missing viewport <meta> tag in the <head>
+148,0,0,0,Multiple viewport <meta> tags were found in the <head>
+149,0,0,0,Tap targets are too small or close
+150,0,0,0,The viewport <meta> tag does not have a width set
+151,0,0,0,The viewport <meta> tag has a maximum-scale set
+152,0,0,0,The viewport <meta> tag has a minimum-scale set
+153,0,0,0,The viewport <meta> tag has a specific width set
+154,0,0,0,The viewport <meta> tag has scaling issues
+155,0,0,0,The viewport <meta> tag initial-scale is incorrect
+156,0,0,0,The viewport <meta> tag is missing an initial-scale
+157,0,0,0,The viewport <meta> tag prevents the user from scaling
+158,0,0,0,Unsupported browser plugins found
+159,Page Speed,,,
+160,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+161,97,102,5.15,Uncompressed text content resources
+162,852,981,15.14,URL loads in one or more identical JavaScript Resource
+163,647,808,24.88,Total combined JavaScript content size is too big (over 500KB)
+164,3,4,33.33,CSS content is not minified
+165,721,266,-63.11,Server response too slow with a Time-to-First-Byte greater than 600ms
+166,4,2,-50,Loads overweighted webfonts
+167,12,6,-50,Too many requests per domain
+168,1989,1009,-49.27,Transferred image size is over 100KB
+169,156,133,-14.74,Total combined Image content size is too big (over 1MB)
+170,1078,993,-7.88,Total combined CSS content size is too big (over 500KB)
+171,1153,1140,-1.13,Contains one or more single point of failure
+172,1153,1140,-1.13,Critical (Above-the-fold) CSS was not found
+173,1153,1140,-1.13,HTML content is not minified
+174,6,6,0,Style Sheet is larger than 14.5KB
+175,3,3,0,JavaScript content is not minified
+176,2,2,0,Duplicate Javascript Files
+177,2,2,0,Resources that do not specify cache headers
+178,2,2,0,Static resources have private a cache-control header
+179,1,1,0,Loads in too many webfonts
+180,1,1,0,Total combined size of the webfonts used is too big (over 200KB)
+181,0,0,0,Char Set Meta Is Not First Element In Head
+182,0,0,0,Character Set Is Not UTF-8
+183,0,0,0,Character Set missing from the HTTP Headers
+184,0,0,0,Character Set Not Specified In Head Or Headers
+185,0,0,0,Contains DOM elements with empty src or href attributes
+186,0,0,0,Contains redirecting page resources
+187,0,0,0,Critical (Above-the-fold) CSS was found in the <head> but not loaded early enough
+188,0,0,0,DOM depth exceeds recommended 32 nodes deep
+189,0,0,0,DOM width exceeds recommended 60 nodes wide
+190,0,0,0,Downloaded HTML is greater the 500KB
+191,0,0,0,Duplicate Style Sheets
+192,0,0,0,Has an excessive number of DOM nodes (greater than 1500)
+193,0,0,0,Has too many synchronous JavaScript requests
+194,0,0,0,Keep-alive not set on page resources that are used multiple times
+195,0,0,0,Loads hidden images
+196,0,0,0,Loads offscreen images that appear below the fold
+197,0,0,0,Loads oversized images which are scaled in the browser
+198,0,0,0,Resources that do not specify long cache headers
+199,0,0,0,Style sheet is loaded in with media='print'
+200,0,0,0,Style sheets are not loaded first in the <head>
+201,0,0,0,Unoptimized JPEG images that could be compressed further
+202,0,0,0,URL loads in one or more identical CSS Resource
+203,Accessibility,,,
+204,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+205,827,830,0.36,Certain ARIA roles must be contained by particular parents
+206,52,64,23.08,Links must have discernible text
+207,176,161,-8.52,Form elements must have labels
+208,1150,1137,-1.13,Elements must have sufficient color contrast
+209,1153,1140,-1.13,Ensure that lists are structured correctly
+210,1153,1140,-1.13,Ensures <li> elements are used semantically
+211,1153,1140,-1.13,id attribute value must be unique
+212,1,1,0,Ensure that each non-empty data cell in a large table has one or more table headers
+213,0,0,0,<audio> elements must have a captions track
+214,0,0,0,<dt> and <dd> elements must be contained by a <dl>
+215,0,0,0,<html> element must have a lang attribute
+216,0,0,0,<html> element must have a valid value for the lang attribute
+217,0,0,0,<object> elements must have alternate text
+218,0,0,0,<video> elements must have an audio description track
+219,0,0,0,<video> elements must have captions
+220,0,0,0,accesskey attribute value must be unique
+221,0,0,0,ARIA attributes must conform to valid names
+222,0,0,0,ARIA attributes must conform to valid values
+223,0,0,0,ARIA roles used must conform to valid values
+224,0,0,0,"aria-hidden=""true"" must not be present on the document body"
+225,0,0,0,Certain ARIA roles must contain particular children
+226,0,0,0,Data or header cells should not be used to give caption to a data table
+227,0,0,0,Documents must have <title> element to aid in navigation
+228,0,0,0,Elements must only use allowed ARIA attributes
+229,0,0,0,Elements should not have tabindex greater than zero
+230,0,0,0,Ensure <dl> elements are structured correctly
+231,0,0,0,Ensure <marquee> elements are not used
+232,0,0,0,Ensure buttons have discernible text
+233,0,0,0,Ensure that each table header in a data table refers to data cells
+234,0,0,0,Image buttons must have alternate text
+235,0,0,0,Images must have alternate text
+236,0,0,0,lang attribute must have a valid value
+237,0,0,0,Layout tables must not use data table elements
+238,0,0,0,Page must have means to bypass repeated blocks
+239,0,0,0,Required ARIA attributes must be provided
+240,0,0,0,Table headers in a data table must refer to data cells
+241,0,0,0,The page should have a skip link as its first link
+242,0,0,0,Timed refresh must not exist
+243,0,0,0,Zooming and scaling must not be disabled
+244,Security,,,
+245,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+246,9,4,-55.56,HTTPS URL links to an HTTP URL
+247,1153,1140,-1.13,Content-Security-Policy HTTP header is missing or invalid
+248,1153,1140,-1.13,Has external opener links vulnerable to tabnapping
+249,1153,1140,-1.13,Has JavaScript served via a CDN without subresource integrity
+250,1153,1140,-1.13,Has style sheets served via a CDN without subresource integrity
+251,1153,1140,-1.13,Loads page resources using protocol relative URIs
+252,4,4,0,Referrer-Policy HTTP header is missing
+253,4,4,0,Strict-Transport-Security HTTP (HSTS) header is missing
+254,4,4,0,X-Content-Type-Options HTTP header is missing
+255,0,0,0,Has deprecated Public-Key-Pins HTTP header
+256,0,0,0,Has deprecated Public-Key-Pins-Report-Only HTTP header
+257,0,0,0,HTTP URL contains a password input field
+258,0,0,0,HTTPS URL contains a form posting to HTTP
+259,0,0,0,Leaks server information useful for compromising servers
+260,0,0,0,Mixed content (loads HTTP resources on HTTPS URL)
+261,0,0,0,X-Frame-Options HTTP header is missing or invalid
+262,0,0,0,X-XSS-Protection HTTP header is missing or invalid
+263,XML Sitemaps,,,
+264,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+265,5,0,-100,Noindex URL in XML Sitemaps
+266,0,0,0,Canonicalized URL in XML Sitemaps
+267,0,0,0,Disallowed URL in XML Sitemaps
+268,0,0,0,Error (5XX) URL in XML Sitemaps
+269,0,0,0,Forbidden (403) URL in XML Sitemaps
+270,0,0,0,Not Found (4XX) URL in XML Sitemaps
+271,0,0,0,Redirect (3XX) URL in XML Sitemaps
+272,0,0,0,Timed out URL in XML Sitemaps
+273,0,0,0,URL in multiple XML Sitemaps
+274,Organic Search Traffic,,,
+275,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+276,89,93,4.49,Orphan URL received search traffic
+277,90,98,8.89,Not Found (4XX) URL received search traffic
+278,2,3,50,Redirect (3XX) URL received organic search traffic
+279,312,283,-9.29,Average time on page less than or equal to 10s
+280,448,430,-4.02,Had bounce rate greater than or equal to 80%
+281,539,534,-0.93,URL received no organic search traffic
+282,709,709,0,URL received search traffic but 0 goal conversions
+283,0,0,0,Canonicalized URL received organic search traffic
+284,0,0,0,Disallowed URL received organic search traffic
+285,0,0,0,Forbidden (403) URL received search traffic
+286,0,0,0,Noindex URL received organic search traffic
+287,0,0,0,Only has desktop organic search traffic
+288,0,0,0,URL only received mobile organic search traffic
+289,0,0,0,URL only received tablet organic search traffic
+290,0,0,0,URL received no desktop organic search traffic
+291,0,0,0,URL received no mobile organic search traffic
+292,0,0,0,URL received no tablet organic search traffic
+293,External URLs,,,
+294,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Insight
+295,10,11,10,All External URLs
+296,9,11,22.22,External HTML URLs
+297,1,0,-100,External Download URLs
+298,10,10,0,External Successful URLs
+299,External URLs,,,
+300,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+301,0,0,0,Broken external URL (4XX or 5XX)
+302,Canonical,,,
+303,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+304,0,70,7000,Canonical points to a noindex URL
+305,0,71,7100,Noindex found on rel Next/Prev Paginated URL
+306,0,130,13000,Next/Prev Paginated URL is canonicalized to different URL
+307,0,145,14500,Canonical points to a different internal URL
+308,172,1,-99.42,Paginated URL missing next/prev canonicals
+309,0,0,0,Canonical is a relative URL
+310,0,0,0,Canonical is malformed or empty
+311,0,0,0,Canonical loop
+312,0,0,0,Canonical only found in rendered DOM
+313,0,0,0,Canonical outside of head
+314,0,0,0,Canonical points to a disallowed URL
+315,0,0,0,Canonical points to a noindex nofollow URL
+316,0,0,0,Canonical points to a redirecting URL
+317,0,0,0,Canonical points to a URL that is Error (5XX)
+318,0,0,0,Canonical points to a URL that is Not Found 404
+319,0,0,0,Canonical points to another canonicalized URL
+320,0,0,0,Canonical points to external URL
+321,0,0,0,Canonical points to HTTP version
+322,0,0,0,Canonical points to HTTPS version
+323,0,0,0,Canonical tag in HTML and HTTP header
+324,0,0,0,Canonical URL has no incoming internal links
+325,0,0,0,Mismatched canonical tag in HTML and HTTP header
+326,0,0,0,Multiple canonical tags
+327,0,0,0,"Multiple, mismatched canonical tags"
+328,0,0,0,Rendered Canonical is different to HTML source
+329,Robots,,,
+330,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Insight
+331,174,252,44.83,Not indexable internal HTML URLs
+332,1078,993,-7.88,Indexable internal HTML URLs
+333,75,72,-4,HTML URL has noindex directive
+334,0,0,0,Disallowed by robots.txt
+335,0,0,0,Nofollow found in meta or HTTP header
+336,Robots,,,
+337,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+338,0,0,0,Disallowed image
+339,0,0,0,Disallowed JavaScript file
+340,0,0,0,Disallowed Style Sheet
+341,0,0,0,Has noindex and nofollow directives
+342,0,0,0,Internal Disallowed URLs
+343,0,0,0,Meta robots found outside of <head>
+344,0,0,0,Mismatched nofollow directives in HTML and header
+345,0,0,0,Mismatched noindex directives in HTML and header
+346,0,0,0,Multiple nofollow directives
+347,0,0,0,Multiple noindex directives
+348,0,0,0,Nofollow in HTML and HTTP header
+349,0,0,0,Noindex in HTML and HTTP header
+350,0,0,0,URL only has nofollow incoming internal links
+351,Indexability,,,
+352,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Insight
+353,0,0,0,Disallowed URLs
+354,Redirects,,,
+355,2019-07-02 00:00:00,2019-08-05 00:00:00,Change (%),Hint
+356,2,3,50,Internal redirected URLs
+357,0,1,100,External redirected URLs
+358,0,0,0,External URL redirect broken (4XX or 5XX)
+359,0,0,0,Internal URL is part of a chained redirect loop
+360,0,0,0,Internal URL redirect broken (4XX or 5XX)
+361,0,0,0,Internal URL redirects back to itself
+362,0,0,0,Page resource URL is part of a chained redirect loop
+363,0,0,0,Page resource URL redirects back to itself
+364,0,0,0,Redirected page resource URLs
+365,0,0,0,Redirects using a Meta refresh
+366,0,0,0,Resource URL redirect broken (4XX or 5XX)

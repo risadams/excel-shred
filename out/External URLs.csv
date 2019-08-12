@@ -1,0 +1,2 @@
+,Type,Status,URLs,Hint,Description,Learn More
+0,Issue,Pass,0,Broken external URL (4XX or 5XX),"URLs on a subdomain or external domain, which are linked to by internal URLs, that weren't successfully audited. This includes crawl statuses of Not Found, Error, Forbidden and Timeout. ",

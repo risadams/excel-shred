@@ -1,0 +1,1 @@
+[{"Type":"Issue","Status":"Pass","URLs":0,"Hint":"Broken external URL (4XX or 5XX)","Description":"URLs on a subdomain or external domain, which are linked to by internal URLs, that weren't successfully audited. This includes crawl statuses of Not Found, Error, Forbidden and Timeout. ","Learn More":null}]
