@@ -1,7 +1,6 @@
 import os
-from pathlib import Path, PurePath
-
 import pandas as pd
+from pathlib import Path, PurePath
 
 
 def extract_dir_name(input_file):
