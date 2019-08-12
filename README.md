@@ -9,7 +9,7 @@ The new file(s) will be in a folder of the same name as the original file
 ```
 Usage: excel-shred.py [OPTIONS] [INPUT_DIRS]...
 
-  Open an Excel workbook, and convert all sheets to json datasets :param
+  Open an Excel workbook, and convert all sheets to json datasets
   input_dirs: one or more directory paths containing excel workbooks
 
   Example: excel-shred input_dir_a [input_dir_b]
