@@ -15,17 +15,15 @@ def extract_dir_name(input_file):
     return name
 
 
-def open_dir(input_path):
+def open_dir(input_path, patterns):
     """
     Opens the specified input path and returns any located excel file
     :param input_path:
     :return:
     """
-    for file in Path(input_path).glob('**/*.xls'):
-        yield file
-
-    for file in Path(input_path).glob('**/*.xlsx'):
-        yield file
+    for ext in patterns:
+        for file in Path(input_path).glob('**/*.' + ext):
+            yield file
 
 
 def shred_sheets(input_file, _format):

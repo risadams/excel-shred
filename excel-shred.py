@@ -20,9 +20,13 @@ def cli(format, input_dirs):
     print(f"Excel shredding all files to {format}")
 
     for path in input_dirs:
-        for file in exutil.open_dir(path):
+        for file in exutil.open_dir(path, ['xls', 'xlsx']):
             print(f'\tShredding : {file}')
             exutil.shred_sheets(file, format)
+
+        print(f'\t - OUTPUT FILES -')
+        for file in exutil.open_dir(path, ['csv', 'json']):
+            print(f'\t\t{file}')
 
 
 cli()
