@@ -30,6 +30,7 @@ def cli(format, outdir, input_dirs):
     excel-shred -f csv -o .\output input_dir_a [input_dir_b]
     """
 
+    click.clear()
     print(f"Excel shredding all files to {format} to {outdir}")
 
     # ensure output directory exists
@@ -38,14 +39,19 @@ def cli(format, outdir, input_dirs):
 
     for path in input_dirs:
         # find and rip all excel files in all input directories
-        for file in exutil.open_dir(path, ['xls', 'xlsx']):
-            print(f'\tShredding : {file}')
-            exutil.shred_sheets(file, format)
+        files = list(exutil.open_dir(path, ['xls', 'xlsx']))
+        count = len(files)
+        with(click.progressbar(files, label=f'Shredding {count} files from {path}', length=count)) as bar:
+            for file in bar:
+                exutil.shred_sheets(file, format)
 
         # copy all shredded files to output director
-        for file in exutil.open_dir(path, ['csv', 'json']):
-            new_path = os.path.join(outdir, PurePath(file).name)
-            shutil.move(file, new_path)
+        out_files = list(exutil.open_dir(path, ['csv', 'json']))
+        out_count = len(out_files)
+        with(click.progressbar(out_files, label=f'copying {out_count} output files', length=out_count)) as bar:
+            for file in bar:
+                new_path = os.path.join(outdir, PurePath(file).name)
+                shutil.move(file, new_path)
 
 
 cli()

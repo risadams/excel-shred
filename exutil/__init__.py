@@ -42,7 +42,6 @@ def shred_sheets(input_file, _format):
 
     wb = pd.ExcelFile(input_file)
     for ws in wb.sheet_names:
-        print(f"\t Extracting WS: {ws}")
         data = pd.read_excel(input_file, sheet_name=ws)
 
         if _format == 'json' or _format == 'all':
@@ -50,7 +49,7 @@ def shred_sheets(input_file, _format):
                 new_file = os.path.join(name, ws + '.json')
                 data.to_json(new_file, orient="records")
             except Exception as e:
-                print(e)
+                print(f'ERROR in [{wb},{ws}] -- {e}')
                 continue
 
         if _format == 'csv' or _format == 'all':
@@ -58,5 +57,5 @@ def shred_sheets(input_file, _format):
                 new_file = os.path.join(name, ws + '.csv')
                 data.to_csv(new_file)
             except Exception as e:
-                print(e)
+                print(f'ERROR in [{wb},{ws}] -- {e}')
                 continue
