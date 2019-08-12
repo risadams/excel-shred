@@ -1,5 +1,5 @@
 import os
-from pathlib import Path
+from pathlib import Path, PurePath
 
 import pandas as pd
 
@@ -10,7 +10,8 @@ def extract_dir_name(input_file):
     :param input_file:
     :return:
     """
-    s = input_file.split('.')
+    fname = PurePath(input_file).__str__()
+    s = fname.split('.')
     name = '.'.join(s[:-1])
     return name
 
@@ -35,7 +36,7 @@ def shred_sheets(input_file, _format):
     :param _format:
     :return:
     """
-    name = extract_dir_name(input_file) + f"_{format}"
+    name = extract_dir_name(input_file)
     try:
         os.makedirs(name)
     except:
@@ -43,13 +44,23 @@ def shred_sheets(input_file, _format):
 
     wb = pd.ExcelFile(input_file)
     for ws in wb.sheet_names:
-        print(ws + '.' + _format, 'Done!')
+        print(f"\t Extracting WS: {ws}")
         data = pd.read_excel(input_file, sheet_name=ws)
-        new_file = os.path.join(name, ws + '.' + _format)
-        if _format == 'json':
-            data.to_json(new_file, orient="records")
-        elif _format == 'csv':
-            data.to_csv(new_file)
-        else:
-            raise AssertionError(f"Invalid format {_format}")
-    print('Complete')
+
+        if _format == 'json' or _format == 'all':
+            try:
+                new_file = os.path.join(name, ws + '.json')
+                data.to_json(new_file, orient="records")
+            except Exception as e:
+                print(e)
+                continue
+
+        if _format == 'csv' or _format == 'all':
+            try:
+                new_file = os.path.join(name, ws + '.csv')
+                data.to_csv(new_file)
+            except Exception as e:
+                print(e)
+                continue
+
+        print("\tDone!")

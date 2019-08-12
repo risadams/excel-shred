@@ -5,7 +5,7 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'], ignore_unknown_optio
 
 
 @click.command(context_settings=CONTEXT_SETTINGS)
-@click.option('--format','-f', default='json', type=click.Choice(['json', 'csv']))
+@click.option('--format', '-f', default='all', type=click.Choice(['json', 'csv', 'all']))
 @click.argument('input_dirs', nargs=-1, type=click.Path(exists=True))
 def cli(format, input_dirs):
     """
