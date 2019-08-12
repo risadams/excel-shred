@@ -6,7 +6,7 @@ Each located file will be parsed into a json data set, csv data set or both.
 The new file(s) will be in a folder of the same name as the original file
 
 
-```
+```python
 Usage: excel-shred.py [OPTIONS] [INPUT_DIRS]...
 
   Open an Excel workbook, and convert all sheets to json datasets :param
