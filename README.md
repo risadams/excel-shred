@@ -16,7 +16,7 @@ Usage: excel-shred.py [OPTIONS] [INPUT_DIRS]...
 
 Options:
   -f, --format [json|csv|all]
-  -h, --help                   Show this message and exit.
+  -h, --help
 ```  
 
 # Format Options
