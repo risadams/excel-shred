@@ -6,8 +6,8 @@ from pathlib import Path, PurePath
 def extract_dir_name(input_file):
     """
     creates a directory path based on the specified file name
-    :param input_file:
-    :return:
+    :param input_file: file bane
+    :return: full path, minus extension
     """
     fname = PurePath(input_file).__str__()
     s = fname.split('.')
@@ -18,8 +18,9 @@ def extract_dir_name(input_file):
 def open_dir(input_path, patterns):
     """
     Opens the specified input path and returns any located excel file
-    :param input_path:
-    :return:
+    :param patterns: the file extensions to glob over (eg xls, csv)
+    :param input_path: the starting path
+    :return: generator of all found files
     """
     for ext in patterns:
         for file in Path(input_path).glob('**/*.' + ext):
@@ -29,8 +30,8 @@ def open_dir(input_path, patterns):
 def shred_sheets(input_file, _format):
     """
     Opens an excel workbook, and converts all sheets to a new file of the specified format
-    :param input_file:
-    :param _format:
+    :param input_file: the path to the excel book
+    :param _format: the format to convert all sheets
     :return:
     """
     name = extract_dir_name(input_file)
