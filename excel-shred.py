@@ -13,6 +13,8 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'], ignore_unknown_optio
 @click.argument('input_dirs', nargs=-1, type=click.Path(exists=True))
 def cli(format, outdir, input_dirs):
     """
+    excel-shred  Version 1.0.0
+
     Open an Excel workbook, and convert all sheets to json datasets
     :param outdir: output directory for files
     :param format: the output format
@@ -31,7 +33,7 @@ def cli(format, outdir, input_dirs):
     """
 
     click.clear()
-    print(f"Excel shredding all files to {format} to {outdir}")
+    click.secho(f"Excel shredding all files to {format} to {outdir}", fg='blue')
 
     # ensure output directory exists
     if not os.path.exists(outdir):

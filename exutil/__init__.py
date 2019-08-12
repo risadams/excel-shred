@@ -1,4 +1,5 @@
 import os
+import click
 import pandas as pd
 from pathlib import Path, PurePath
 
@@ -49,7 +50,7 @@ def shred_sheets(input_file, _format):
                 new_file = os.path.join(name, ws + '.json')
                 data.to_json(new_file, orient="records")
             except Exception as e:
-                print(f'ERROR in [{input_file},{ws}] -- {e}')
+                click.secho(f'\n\tERROR in [{input_file},{ws}] -- {e}', fg='red')
                 continue
 
         if _format == 'csv' or _format == 'all':
@@ -57,5 +58,5 @@ def shred_sheets(input_file, _format):
                 new_file = os.path.join(name, ws + '.csv')
                 data.to_csv(new_file)
             except Exception as e:
-                print(f'ERROR in [{input_file},{ws}] -- {e}')
+                click.secho(f'\n\tERROR in [{input_file},{ws}] -- {e}', fg='red')
                 continue
