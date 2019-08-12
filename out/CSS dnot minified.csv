@@ -1,5 +1,0 @@
-,URL,CSS Valid,No. URLs Referencing Resource,Is Minified,CSS Error,CSS Empty Rules,CSS Unknown Properties,CSS Duplicate Properties,CSS Uses @import,CSS Too Many Font-Faces,CSS Uses Regex,CSS Uses Universal Selector,CSS Uses Unqualified Attributes,CSS Has Zero Units,CSS Has Overqualified Selectors,CSS Has Duplicate Background Images
-0,https://ridewithgps.com/stylesheets/postcards/postcard.css,Yes,1,No,No,No,No,No,No,No,No,No,No,No,No,No
-1,https://ridewithgps.com/stylesheets/sample_graph.css,Yes,1,No,No,No,No,No,No,No,No,No,No,No,No,No
-2,https://starling.crowdriff.com/css/app.37b4e5f6221016515489.css,Yes,2,No,No,No,No,No,No,No,No,No,No,No,No,No
-3,https://starling.crowdriff.com/css/init.1f4f073cf43f4a98b900.css,Yes,2,No,No,No,No,No,No,No,No,No,No,No,No,No
