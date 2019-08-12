@@ -49,7 +49,7 @@ def shred_sheets(input_file, _format):
                 new_file = os.path.join(name, ws + '.json')
                 data.to_json(new_file, orient="records")
             except Exception as e:
-                print(f'ERROR in [{wb},{ws}] -- {e}')
+                print(f'ERROR in [{input_file},{ws}] -- {e}')
                 continue
 
         if _format == 'csv' or _format == 'all':
@@ -57,5 +57,5 @@ def shred_sheets(input_file, _format):
                 new_file = os.path.join(name, ws + '.csv')
                 data.to_csv(new_file)
             except Exception as e:
-                print(f'ERROR in [{wb},{ws}] -- {e}')
+                print(f'ERROR in [{input_file},{ws}] -- {e}')
                 continue
