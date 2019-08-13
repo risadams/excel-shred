@@ -26,10 +26,10 @@ def cli(format, outdir, input_dirs):
     excel-shred input_dir_a [input_dir_b]
 
     \b
-    excel-shred -f csv input_dir_a [input_dir_b]
+    excel-shred -f csv input_dir_a
 
     \b
-    excel-shred -f csv -o .\output input_dir_a [input_dir_b]
+    excel-shred -f json -o output input_dir_a
     """
 
     click.clear()
