@@ -27,10 +27,10 @@ def prep_file_name(path, file):
     :param file: the original file name
     :return: sanitized name
     """
-    name = path.__str__() + '_' + file.__str__()
+    name = path.__str__() + '~' + file.__str__()
     name = name.lower()
     name = name.replace(' ', '_')
-    name = re.sub('[^a-z0-9_.]+', '', name)
+    name = re.sub('[^a-z0-9\-_!.~]+', '', name)
     return name
 
 
