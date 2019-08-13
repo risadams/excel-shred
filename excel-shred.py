@@ -40,6 +40,10 @@ def cli(format, outdir, input_dirs):
         os.makedirs(outdir)
 
     for path in input_dirs:
+        max_path = os.path.join(outdir, PurePath(path).name)
+        if not os.path.exists(max_path):
+            os.makedirs(max_path)
+
         # find and rip all excel files in all input directories
         files = list(exutil.open_dir(path, ['xls', 'xlsx']))
         count = len(files)
@@ -52,7 +56,7 @@ def cli(format, outdir, input_dirs):
         out_count = len(out_files)
         with(click.progressbar(out_files, label=f'copying {out_count} output files', length=out_count)) as bar:
             for file in bar:
-                new_path = os.path.join(outdir, PurePath(file).name)
+                new_path = os.path.join(max_path, PurePath(file).name)
                 shutil.move(file, new_path)
 
 
