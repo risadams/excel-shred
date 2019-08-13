@@ -1,4 +1,5 @@
 import os
+import re
 import click
 import pandas as pd
 from pathlib import Path, PurePath
@@ -13,6 +14,23 @@ def extract_dir_name(input_file):
     fname = PurePath(input_file).__str__()
     s = fname.split('.')
     name = '.'.join(s[:-1])
+    return name
+
+
+def prep_file_name(path, file):
+    """
+    append the original path and file name
+     * strips special chars
+     * remove spaces (replace with underscore)
+     * convert to lowercase
+    :param path: the path part of the new file name
+    :param file: the original file name
+    :return: sanitized name
+    """
+    name = path.__str__() + '_' + file.__str__()
+    name = name.lower()
+    name = name.replace(' ', '_')
+    name = re.sub('[^a-z0-9_.]+', '', name)
     return name
 
 
