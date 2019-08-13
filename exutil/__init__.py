@@ -2,6 +2,7 @@ import os
 import re
 import click
 import pandas as pd
+from pymongo import MongoClient
 from pathlib import Path, PurePath
 
 
@@ -46,14 +47,17 @@ def open_dir(input_path, patterns):
             yield file
 
 
-def shred_sheets(input_file, _format):
+def shred_sheets(subdomain, audit_date, input_file, _format):
     """
     Opens an excel workbook, and converts all sheets to a new file of the specified format
+    :param subdomain: appended to data frame
+    :param audit_date: appended to data fram
     :param input_file: the path to the excel book
     :param _format: the format to convert all sheets
     :return:
     """
     name = extract_dir_name(input_file)
+    fname = PurePath(input_file).name.__str__()
     try:
         os.makedirs(name)
     except:
@@ -62,10 +66,35 @@ def shred_sheets(input_file, _format):
     wb = pd.ExcelFile(input_file)
     for ws in wb.sheet_names:
         data = pd.read_excel(input_file, sheet_name=ws)
+        # add constants
+        data.index.names = ['ix']
+        data['subdomin'] = subdomain
+        data['audit_date'] = audit_date
+
+        # strip chars we don't want in colum names
+        cols = data.columns
+        renamed = []
+        for col in cols:
+            col = re.sub('[^a-zA-z0-9]', '', col)
+            renamed.append(col)
+
+        data.columns = renamed
+
+        # build output formats
+        if _format == 'mongo':
+            client = MongoClient('mongodb://localhost:27017/')
+            db = client.Sitebulb
+            cl = db.August5
+
+            try:
+                cl.insert_many(data.to_dict('records'))
+            except Exception as e:
+                click.secho(f'\nERROR in [{input_file},{ws}] -- {e}', fg='red')
+                continue
 
         if _format == 'json' or _format == 'all':
             try:
-                new_file = os.path.join(name, ws + '.json')
+                new_file = os.path.join(name, fname + '~' + ws + '.json')
                 data.to_json(new_file, orient="records")
             except Exception as e:
                 click.secho(f'\nERROR in [{input_file},{ws}] -- {e}', fg='red')
@@ -73,7 +102,7 @@ def shred_sheets(input_file, _format):
 
         if _format == 'csv' or _format == 'all':
             try:
-                new_file = os.path.join(name, ws + '.csv')
+                new_file = os.path.join(name, fname + '~' + ws + '.csv')
                 data.to_csv(new_file)
             except Exception as e:
                 click.secho(f'\nERROR in [{input_file},{ws}] -- {e}', fg='red')
