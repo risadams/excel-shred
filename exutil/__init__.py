@@ -75,7 +75,7 @@ def shred_sheets(subdomain, audit_date, input_file, _format):
         cols = data.columns
         renamed = []
         for col in cols:
-            col = re.sub('[^a-zA-z0-9]', '', col)
+            col = re.sub('[^a-zA-Z0-9]', '', col)
             renamed.append(col)
 
         data.columns = renamed
